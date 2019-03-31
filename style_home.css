@@ -1,0 +1,230 @@
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+
+.w3-main w3-content w3-padding {
+  max-width:1200px;
+  margin-top:50px
+}
+
+.logo {
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 80px;
+width: 100px
+}
+
+#firstgrid {
+padding-top: 30px;
+margin-top: 100px;
+}
+
+h3 {
+  text-indent: bold;
+}
+
+.title {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.introduction {
+text-align: center;
+margin-bottom: 30px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contactus input[type="text"],
+#contactus input[type="email"],
+#contactus input[type="tel"],
+#contactus input[type="url"],
+#contactus textarea,
+#contactus button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #FFF;
+  padding: 25px;
+  margin: 55px 0;
+  box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.0), 0 5px 5px 0 rgba(0, 0, 0, 0.0);
+}
+
+#contactus {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 55px 0;
+  box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.0), 0 5px 5px 0 rgba(0, 0, 0, 0.0);
+}
+
+#contactus h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contactus h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contactus input[type="text"],
+#contactus input[type="email"],
+#contactus input[type="tel"],
+#contactus input[type="url"],
+#contactus textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contactus input[type="text"]:hover,
+#contactus input[type="email"]:hover,
+#contactus input[type="tel"]:hover,
+#contactus input[type="url"]:hover,
+#contactus textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contactus textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contactus button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #000000;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contactus button[type="submit"]:hover {
+  background: #FFB6C1;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contactus button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contactus input:focus,
+#contactus textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+.w3-row-padding w3-padding-32 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 100px;
+}
+
+
+.socialbtn {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+
+}
+
+.socialbtn a {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: #011627;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 22px;
+    cursor: pointer;
+}
+.socialbtn a:hover {
+    background: #FFB6C1;
+}
+
+.socialbtn a i {
+    transition: all 0.3s;
+}
+
+.socialbtn a:hover > i {
+    transform: scale(1.1);
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.ul {
+  list-style: none;
+}
+
+.image1 {
+  border-radius: 25px;
+}
+
+.d-block {
+  border-radius: 25px;
+}
